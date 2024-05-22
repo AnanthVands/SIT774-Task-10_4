@@ -1,0 +1,56 @@
+body {
+    font-family: "Urbanist";
+    color: white;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.custom-navbar {
+    background-color: #09271e; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.nav-link:hover {
+    text-decoration: underline; 
+    background-color: #00573b; 
+}
+
+.parallax {
+    background-image: url('/pages.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 50px;
+}
+
+.explanation-container {
+    background-color: #8f5e5f;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #6c2237;
+    color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.custom-button {
+    background-color: #501022; 
+    color: #ffffff; 
+}
+
+.custom-button:hover {
+    background-color: #6d142d; 
+}
+ 
+code {
+    color: #0d37;
+}
